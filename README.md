@@ -14,12 +14,10 @@ The goal is to communicate meaningful findings using clear visuals and storytell
 ##  Files in the Repository
 | File/Folder | Description |
 |--------------|-------------|
-| `analysis.ipynb` | Main Jupyter Notebook containing data loading, cleaning, analysis, and visualizations. |
+| `stackoverflow_analysis.ipynb` | Main Jupyter Notebook containing data loading, cleaning, analysis, and visualizations. |
 | `data/` | Folder containing the survey CSV dataset (not included due to size limits). |
 | `figures/` | Folder containing exported plots and charts. |
 | `README.md` | Project documentation (this file). |
-| `requirements.txt` | List of required Python packages for reproducing the analysis. |
-
 ---
 
 ##  Libraries Used
