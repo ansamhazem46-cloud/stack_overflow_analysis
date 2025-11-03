@@ -1,22 +1,29 @@
-# How Programming Languages Affect Salaries and Remote Work
-**Udacity Data Science Blog Post Project**  
-**Author:** Ansam Nawar
+#  Developer Survey Analysis (Udacity Data Science Project)
 
-## Overview
-This repository contains a reproducible analysis of the Stack Overflow Developer Survey (2024 public responses). The project examines language popularity, median salaries by language and country, and remote vs on-site differences. Visual style is minimal and Medium-friendly.
+##  Overview
+This project analyzes data from the **Stack Overflow Developer Survey 2024** to uncover key insights about:
+- The most popular programming languages.  
+- The relationship between **years of experience and salary**.  
+- How **remote vs in-person work** affects compensation.  
+- Developer **job satisfaction** patterns.
 
-## Files
-- `stack_overflow_analysis.py` — Analysis script (also notebook-ready; use `# %%` cell markers).
-- `data/` — (not included) put `survey_results_public.csv` here (download from StackOverflow Insights).
-- `figures/` — Generated PNGs after running the script/notebook.
-- `data_science_blog_post_stackoverflow.md` — Medium-style blog post draft (edit & paste into Medium).
+The goal is to communicate meaningful findings using clear visuals and storytelling suitable for both technical and non-technical audiences.
 
-## How to run (local)
-1. Clone or download this repo.
-2. Put the Stack Overflow CSV into `data/survey_results_public.csv`. Download from: https://survey.stackoverflow.co/2024
-3. (Optional but recommended) Create a virtual environment:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate   # macOS / Linux
-   venv\\Scripts\\activate    # Windows PowerShell
-   pip install pandas matplotlib
+---
+
+##  Files in the Repository
+| File/Folder | Description |
+|--------------|-------------|
+| `analysis.ipynb` | Main Jupyter Notebook containing data loading, cleaning, analysis, and visualizations. |
+| `data/` | Folder containing the survey CSV dataset (not included due to size limits). |
+| `figures/` | Folder containing exported plots and charts. |
+| `README.md` | Project documentation (this file). |
+| `requirements.txt` | List of required Python packages for reproducing the analysis. |
+
+---
+
+##  Libraries Used
+To reproduce the analysis, you’ll need the following Python libraries:
+
+```bash
+pip install pandas numpy matplotlib seaborn pathlib
